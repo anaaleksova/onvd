@@ -456,8 +456,8 @@ body {
   background-color: #fff;
   display: block;
   position: absolute;
-  width: 30px;
-  height: 2px;
+  width: 30px !important;
+  height: 2.5px;
   left: 0;
 }
 
@@ -476,8 +476,8 @@ body {
   background-color: #fff;
   display: block;
   position: absolute;
-  width: 30px;
-  height: 2px;
+  width: 30px !important;
+  height: 2.5px;
   left: 0;
   width: 75%;
 }
