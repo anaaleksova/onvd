@@ -1,0 +1,346 @@
+::selection {
+    background: mediumvioletred;
+    color: #fff;
+}
+
+.testimonials_container
+{
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+    margin-top: 10rem;
+}
+.testimonial
+{
+    padding-top: 2rem;
+    overflow: hidden;
+}
+.avatar
+{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+}
+.testimonial_info
+{
+    text-align: center;
+}
+.testimonial_body
+{
+    padding: 2rem;
+    margin-top: 3rem ;
+}
+
+.country-text {
+    font-size: 13px;
+    padding: 2rem;
+    margin-top: 3rem ;
+    line-height: 15px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.avatar:hover .overlay {
+    position: absolute;
+    top: -17px;
+    left: 47px;
+    width: 20rem;
+    height: 20rem;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    pointer-events: none;
+    border-radius: 10%;
+}
+
+.swiper-wrapper article .testimonial .swiper-slide .avatar:hover .overlay {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.swiper-wrapper article .testimonial .swiper-slide .avatar:hover .country-text {
+    opacity: 1
+}
+.swiper-pagination
+{
+   position: relative !important;
+    bottom: 0 !important;
+    padding-top: 15px;
+}
+.features-item {
+    text-align: center;
+    padding: 30px;
+    border-radius: 50px;
+    background: rgb(255,255,255);
+    min-height: 400px;
+}
+
+.features-item:hover {
+    background: linear-gradient(to right, #FF98D1 0%, #FFD6E5 100%);
+}
+
+.features-item .line-dec {
+    background-color: #F03C9C;
+}
+.features h2
+{
+    padding-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-pink-button a {
+    background-color: #FF98D1;
+    border-radius: 25px;
+    border-bottom: 2px solid white !important;
+}
+
+.main-pink-button:hover a {
+    background-color: white;
+    color: mediumvioletred !important;
+    text-decoration: none;
+    border-bottom: 2px solid #FF98D1 !important;
+
+}
+
+.header-area .main-nav .nav li:last-child a:hover ,
+.background-header .main-nav .nav li:last-child a:hover {
+    color: mediumvioletred !important;
+}
+
+.header-area {
+    background-color: #F03C9C;
+}
+
+.progress .progress-bar {
+    border-color: #F03C9C;
+}
+.testimonials_container h2
+{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.testimonials_container h6
+{
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.skills-content h2
+{
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: bold;
+    color: mediumvioletred;
+}
+.faqs_container .row .col-lg-6 .left-image
+{
+    background: #F03C9C;
+    padding: 20px;
+    border-radius: 20px;
+}
+.left-image h2
+{
+    padding-left: 100px;
+}
+.faq
+{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    height: fit-content;
+    background-color: #FFD6E5;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.faq h4
+{
+    font-size: 1rem;
+    line-height: 2.2;
+}
+.faq_icon
+{
+    align-self: flex-start;
+    font-size: 1.2rem;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.faq p{
+    margin-top: 0.8rem;
+    display: none;
+}
+.faq.open p{
+    display: block;
+}
+
+
+.zoom {
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.zoom:hover {
+    width: 100%;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.thumb {
+    overflow: hidden;
+}
+.align-self-center
+{
+    padding-left: 30px;
+}
+
+.progress:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-right: 0px;
+    transform-origin: right center;
+}
+
+.progress {
+    width: 200px;
+    height: 200px;
+    line-height: 150px;
+    background: none;
+    margin: 0px auto;
+    box-shadow: none;
+    position: relative;
+}
+
+.progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: 0px;
+    transform-origin: left center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    line-height: 80px;
+    flex-direction: column;
+    background-color: mediumvioletred;
+    border-radius: 50px;
+    color: white;
+}
+
+.socials .socials-item {
+    align-items: flex-start;
+}
+
+.socials h2 {
+    text-align: center;
+    align-items: center;
+}
+
+.background-pattern-img {
+    background-image: url("assets/images/pattern.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .15;
+    z-index: 2;
+    mix-blend-mode: color-burn;
+    background-repeat: repeat-x; /* Repeat the image horizontally */
+    background-position: 0; /* Initial position of the background */
+    animation: slideBackground 100s linear infinite;
+}
+
+.background-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Ensure the image is clipped within the container */
+}
+
+
+@keyframes slideBackground {
+    0% {
+        background-position: 0; /* Start position */
+    }
+    100% {
+        background-position: -8000px; /* Distance the background moves horizontally (adjust as needed) */
+    }
+}
+
+.background-pattern-gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(to right, pink 20%, mediumvioletred 80%);
+}
+
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+    z-index: 1;
+    position: relative;
+}
+
+a:hover {
+    color: mediumvioletred;
+    text-decoration: underline;
+}
+
+#skills {
+    padding-top: 0;
+}
+
+.swiper-pagination-bullet-active {
+    background: mediumvioletred !important;
+}
+.glow li a:hover
+{
+    color: white;
+    animation: glow 1s ease-in-out infinite alternate !important;}
+
+@-webkit-keyframes glow {
+    from
+    {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff , 0 0 30px #fff, 0 0 40px #fff;
+    }
+    to
+    {
+        text-shadow:  0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff ;
+    }
+}
+body
+{
+    background: #FFF3F8;
+}
