@@ -319,10 +319,6 @@
     </div>
   </div>
 
-
-
-
-
   <section id="travel" class="container testimonials_container mySwiper wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.25s">
     <h2><span style="color: mediumvioletred">Travel</span> Experience</h2>
     <h6>visited <span style="color: hotpink">countries</span></h6>
@@ -523,18 +519,18 @@
         </div>
 
         <div class="col-lg-4 socials wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-          <h2 style="font-weight: bold;padding-bottom: 20px">Socials</h2>
+          <h2 style="font-weight: bold;padding-bottom: 20px; padding-top: 20px">Socials</h2>
           <div class="socials-item">
-            <img style="width: 20%;" src="assets/images/instagram-svgrepo-com.svg">
-            <a href="https://www.instagram.com/aleksovaana/" target=”_blank”><span style="color: white">@aleksovaana</span></a>
+            <img style="" src="assets/images/instagram-svgrepo-com.svg">
+            <a href="https://www.instagram.com/aleksovaana/" target=”_blank”><span style="color: white; font-size: 14px">@aleksovaana</span></a>
           </div>
           <div class="socials-item">
-            <img style="width: 20%;padding-left: 12px;padding-right: 14px;" src="assets/images/mail-svgrepo-com.svg">
-            <a href="mailto:ana.aleksova@students.finki.ukim.mk" ><span style="color: white">ana.aleksova@students.finki.ukim.mk</span></a>
+            <img style="padding-left: 12px;padding-right: 14px;" src="assets/images/mail-svgrepo-com.svg">
+            <a href="mailto:ana.aleksova@students.finki.ukim.mk" ><span style="color: white; font-size: 13px">ana.aleksova@students.finki.ukim.mk</span></a>
           </div>
           <div class="socials-item">
-            <img style="width: 20%;padding-left: 14px;padding-right: 13px;" src="assets/images/linkedin-fill-svgrepo-com.svg">
-            <a href="https://www.linkedin.com/in/ana-aleksova-26109b25a/" target=”_blank"><span style="color: white">Ana Aleksova</span></a>
+            <img style="padding-left: 14px;padding-right: 13px;" src="assets/images/linkedin-fill-svgrepo-com.svg">
+            <a href="https://www.linkedin.com/in/ana-aleksova-26109b25a/" target=”_blank"><span style="color: white; font-size: 14px">Ana Aleksova</span></a>
           </div>
 
         </div>
@@ -565,12 +561,17 @@
 
   <script>
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
+      slidesPerView: 1,
       spaceBetween: 30,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
+      breakpoints: {
+        991: {
+          slidesPerView: 3
+        }
+      }
     });
   </script>
 

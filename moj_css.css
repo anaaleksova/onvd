@@ -8,7 +8,7 @@
     overflow-x: hidden;
     position: relative;
     margin-bottom: 5rem;
-    margin-top: 10rem;
+    margin-top: 200px;
 }
 .testimonial
 {
@@ -23,9 +23,25 @@
     overflow: hidden;
     margin: 0 auto 1rem;
 }
+
 @media (min-width:1200px){
     .avatar {
         width: 20rem;
+    }
+
+}
+
+@media (max-width:991px){
+    .avatar {
+        width: 20rem;
+    }
+
+}
+
+@media (max-width:375px){
+    .avatar {
+        width: 18rem;
+        height: 18rem;
     }
 
 }
@@ -40,9 +56,9 @@
     margin-top: 3rem ;
 }
 
-.country-image {
-    height: inherit !important;
-}
+/*.country-image {*/
+/*    height: inherit !important;*/
+/*}*/
 
 .country-text {
     font-size: 13px;
@@ -356,3 +372,16 @@ body
 {
     background: #FFF3F8;
 }
+
+.socials-item img {
+    width: 20%;
+}
+@media (max-width:991px) {
+    .socials {
+        margin-top: 20px;
+    }
+    .socials-item img {
+        width: 10%;
+    }
+}
+
