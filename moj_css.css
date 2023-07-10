@@ -8,12 +8,24 @@
     overflow-x: hidden;
     position: relative;
     margin-bottom: 5rem;
-    margin-top: 200px;
 }
 .testimonial
 {
     padding-top: 2rem;
     overflow: hidden;
+}
+.testimonials_container h2
+{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.testimonials_container h6
+{
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .avatar
 {
@@ -43,9 +55,10 @@
         width: 18rem;
         height: 18rem;
     }
-
 }
-
+#travel {
+    padding-top: 130px;
+}
 .testimonial_info
 {
     text-align: center;
@@ -55,10 +68,6 @@
     padding: 2rem;
     margin-top: 3rem ;
 }
-
-/*.country-image {*/
-/*    height: inherit !important;*/
-/*}*/
 
 .country-text {
     font-size: 13px;
@@ -149,19 +158,7 @@
 .progress .progress-bar {
     border-color: #F03C9C;
 }
-.testimonials_container h2
-{
-    text-align: center;
-    padding-bottom: 20px;
-    font-weight: bold;
-}
-.testimonials_container h6
-{
-    text-align: center;
-    padding-bottom: 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
+
 .skills-content h2
 {
     text-align: center;
@@ -208,8 +205,14 @@
 .faq.open p{
     display: block;
 }
-
-
+.about-right
+{
+    background-color: #FFD6E5;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 16px;
+}
 .zoom {
     -webkit-transition: 1s;
     -o-transition: 1s;
@@ -310,7 +313,6 @@
     overflow: hidden; /* Ensure the image is clipped within the container */
 }
 
-
 @keyframes slideBackground {
     0% {
         background-position: 0; /* Start position */
@@ -327,7 +329,6 @@
     z-index: 1;
     background: linear-gradient(to right, pink 20%, mediumvioletred 80%);
 }
-
 
 .row {
     --bs-gutter-x: 1.5rem;
@@ -383,5 +384,32 @@ body
     .socials-item img {
         width: 10%;
     }
+}
+@media (max-width:500px)
+{
+    #mail img
+    {
+        padding-left: 7px!important;
+        padding-right: 4px!important;
+    }
+    .background-header .nav li a.active:after
+    {
+        background-color:white;
+    }
+    #ln img
+    {
+        padding-left: 9px!important;
+        padding-right: 3px!important;
+    }
+}
+
+#mail img {
+    padding-left: 12px;
+    padding-right: 14px;
+}
+
+ #ln img {
+    padding-left: 14px;
+    padding-right: 13px;
 }
 

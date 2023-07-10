@@ -155,35 +155,6 @@ body {
   line-height: 45px;
 }
 
-/*.section-heading h2 em {*/
-/*  font-style: normal;*/
-/*  color: #33ccc5;*/
-/*}*/
-
-/*.section-heading h2 span {*/
-/*  color: #088ec3;*/
-/*}*/
-
-/*.main-blue-button a {*/
-/*  display: inline-block;*/
-/*  background-color: #4771cb;*/
-/*  font-size: 15px;*/
-/*  font-weight: 400;*/
-/*  color: #fff;*/
-/*  text-transform: capitalize;*/
-/*  padding: 12px 25px;*/
-/*  border-radius: 23px;*/
-/*  letter-spacing: 0.25px;*/
-/*  border-bottom: 2px solid #fff!important;*/
-/*  transition: all .3s;*/
-/*}*/
-
-/*.main-blue-button a:hover {*/
-/*  background-color: #fff!important;*/
-/*  color: #4771cb;*/
-/*  border-bottom: 2px solid #4771cb!important;*/
-/*}*/
-
 .main-pink1-button a {
   display: inline-block;
   background-color: mediumvioletred;
@@ -232,7 +203,7 @@ body {
   position: absolute;
   width: 20px;
   height: 2px;
-  background-color: pink;
+  background-color: white;
   content: '';
   left: 50%;
   bottom: 0px;
@@ -347,7 +318,7 @@ body {
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: white!important;
+  color: white !important;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -553,10 +524,6 @@ body {
   margin-top: 30px;
 }
 
-.header-area.header-sticky .nav li a.active {
-  color: #33ccc5;
-}
-
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 12px;
@@ -582,8 +549,9 @@ body {
   .background-header .main-nav .nav {
     margin-top: 80px !important;
   }
-  .header-area .main-nav .logo {
-    color: #1e1e1e;
+  .header-area .main-nav .nav li:hover a,
+  .header-area .main-nav .nav li a.active {
+    color: mediumvioletred !important;
   }
   /*.header-area.header-sticky .nav li a:hover,*/
   /*.header-area.header-sticky .nav li a.active {*/
@@ -637,13 +605,14 @@ body {
     border-bottom: 1px solid #e7e7e7;
     padding-left: 0px !important;
     padding-right: 0px !important;
+    text-align: center;
   }
   .header-area .main-nav .nav li a {
     height: 50px !important;
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
+    background: #fff !important;
     color: #191a20 !important;
   }
   /*.header-area .main-nav .nav li a:hover {*/
@@ -834,6 +803,7 @@ body {
 #features {
   padding-top: 130px;
 }
+
 
 .features .features-content {
   z-index: 2;
